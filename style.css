@@ -38,13 +38,13 @@ img{
     font-weight: bold;
 }
 
-.chat-container{
+.messages{
     padding: 10px;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
-.message{
+.chat-container p{
     padding: 5px 10px;
     margin: 5px;
     color: white;
@@ -59,4 +59,30 @@ img{
     border-radius: 50px 50px 0 50px;
     background-color: rgb(87, 87, 206);
     align-self: flex-end;
+}
+
+.input-container{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 10px;
+    color: black;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(61, 91, 223);
+    color: white;
+    cursor: pointer;
 }
